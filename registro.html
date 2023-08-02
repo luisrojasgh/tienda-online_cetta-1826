@@ -63,14 +63,18 @@
     </header>
     <br><br>
     <section class="formulario_registro">
-        <div class="container w-75 bg-dark bg-opacity-10 bg-gradient rounded">
+        <div class="container w-75 bg-dark bg-opacity-10 bg-gradient rounded shadow-sm">
             <div class="row">
                 <h3 class="text-center">Registrarse</h3>
                 <h4 class="text-center">¿Ya estás registrado/a? <a href="ingreso.html">Ingresa aquí</a></h4>
                 <form class="row g-3 align-items-center text-center">
                     <div class="col-md-6 text-start">
-                      <label for="inputEmail4" class="form-label">Nombre de Usuario</label>
-                      <input type="email" class="form-control" id="inputEmail4" placeholder="Tu Nombre de Usuario">
+                      <label for="inputEmail4" class="form-label">Nombre del Usuario</label>
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Tu Nombre">
+                    </div>
+                    <div class="col-md-6 text-start">
+                      <label for="inputEmail4" class="form-label">Apellidos del Usuario</label>
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Tus Apellidos">
                     </div>
                     <div class="col-md-6 text-start">
                       <label for="inputPassword4" class="form-label">Documento de Identidad</label>
@@ -89,7 +93,7 @@
                         <input type="email" class="form-control" id="inputEmail4" placeholder="El Municipio donde vives">
                       </div>
                       <div class="col-md-6 text-start">
-                        <label for="inputPassword4" class="form-label">Barrio</label>
+                        <label for="inputPassword4" class="form-label">Barrio/Vereda</label>
                         <input type="password" class="form-control" id="inputPassword4" placeholder="El Barrio o vereda donde vives">
                     </div>
                     <div class="col-md-6 text-start">
@@ -100,18 +104,7 @@
                         <label for="inputPassword4" class="form-label">Teléfono fijo</label>
                         <input type="password" class="form-control" id="inputPassword4" placeholder="Tu número de Teléfono fijo">
                     </div>
-                    <!-- <div class="col-12">
-                      <label for="inputAddress" class="form-label">Dirección</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                    </div>
-                    <div class="col-12">
-                      <label for="inputAddress2" class="form-label">Dirección 2</label>
-                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                    </div>
-                    <div class="col-md-6">
-                      <label for="inputCity" class="form-label">Ciudad</label>
-                      <input type="text" class="form-control" id="inputCity">
-                    </div> -->
+                    
                     <div class="col-md-6 text-start">
                         <label for="inputEmail4" class="form-label">Contraseña</label>
                         <input type="email" class="form-control" id="inputEmail4" placeholder="Tu Contraseña">
@@ -121,8 +114,8 @@
                         <input type="password" class="form-control" id="inputPassword4" placeholder="Confirma tu contraseña">
                     </div>
                     <div class="col-12" class="d-flex">
-                        <button type="submit" class="btn btn-primary shadow mb-2">Registrarse</button>
-                        <button type="submit" class="btn btn-primary shadow mb-2">Cancelar</button>
+                        <button type="submit" class="btn btn-primary shadow mb-4">Registrarse</button>
+                        <button type="submit" class="btn btn-primary shadow mx-3 mb-4 px-4">Cancelar</button>
                     </div>
                     
                   </form>
