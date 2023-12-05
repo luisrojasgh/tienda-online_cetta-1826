@@ -11,10 +11,10 @@
     <link rel="icon" type="image/png" href="img/icon_3.png">
     <title>Tienda Online Cetta</title>
   </head>
-  <body>
-    <header class="bg-light">
+  <body class="bg-success bg-opacity-10 bg-gradient">
+    <header class="bg-dark bg-gradient">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="index.html">
                     <p class="fs-2">Cetta</p>
@@ -63,18 +63,22 @@
     </header>
     <br><br>
     <section class="formulario_registro">
-        <div class="container w-75 bg-light rounded">
+        <div class="container w-75 bg-dark bg-opacity-10 bg-gradient rounded shadow-sm">
             <div class="row">
                 <h3 class="text-center">Registrarse</h3>
                 <h4 class="text-center">¿Ya estás registrado/a? <a href="ingreso.html">Ingresa aquí</a></h4>
                 <form class="row g-3 align-items-center text-center">
                     <div class="col-md-6 text-start">
-                      <label for="inputEmail4" class="form-label">Nombre de Usuario</label>
-                      <input type="email" class="form-control" id="inputEmail4" placeholder="Tu Nombre de Usuario">
+                      <label for="inputEmail4" class="form-label">Nombre del Usuario</label>
+                      <input type="text" class="form-control" id="inputEmail4" placeholder="Tu Nombre">
+                    </div>
+                    <div class="col-md-6 text-start">
+                      <label for="inputEmail4" class="form-label">Apellidos del Usuario</label>
+                      <input type="text" class="form-control" id="inputEmail4" placeholder="Tus Apellidos">
                     </div>
                     <div class="col-md-6 text-start">
                       <label for="inputPassword4" class="form-label">Documento de Identidad</label>
-                      <input type="password" class="form-control" id="inputPassword4" placeholder="Tu numero de Documento de Identidad">
+                      <input type="text" class="form-control" id="inputPassword4" placeholder="Tu numero de Documento de Identidad">
                     </div>
                     <div class="col-md-6 text-start">
                         <label for="inputEmail4" class="form-label">Dirección de Correo</label>
@@ -82,47 +86,36 @@
                       </div>
                       <div class="col-md-6 text-start">
                         <label for="inputPassword4" class="form-label">Dirección</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Tu Dirección de residencia">
+                        <input type="text" class="form-control" id="inputPassword4" placeholder="Tu Dirección de residencia">
                     </div>
                     <div class="col-md-6 text-start">
                         <label for="inputEmail4" class="form-label">Municipio</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="El Municipio donde vives">
+                        <input type="text" class="form-control" id="inputEmail4" placeholder="El Municipio donde vives">
                       </div>
                       <div class="col-md-6 text-start">
-                        <label for="inputPassword4" class="form-label">Barrio</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="El Barrio o vereda donde vives">
+                        <label for="inputPassword4" class="form-label">Barrio/Vereda</label>
+                        <input type="text" class="form-control" id="inputPassword4" placeholder="El Barrio o vereda donde vives">
                     </div>
                     <div class="col-md-6 text-start">
                         <label for="inputEmail4" class="form-label">Teléfono Celular</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Tu número de Celular">
+                        <input type="text" class="form-control" id="inputEmail4" placeholder="Tu número de Celular">
                       </div>
                       <div class="col-md-6 text-start">
                         <label for="inputPassword4" class="form-label">Teléfono fijo</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Tu número de Teléfono fijo">
+                        <input type="text" class="form-control" id="inputPassword4" placeholder="Tu número de Teléfono fijo">
                     </div>
-                    <!-- <div class="col-12">
-                      <label for="inputAddress" class="form-label">Dirección</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                    </div>
-                    <div class="col-12">
-                      <label for="inputAddress2" class="form-label">Dirección 2</label>
-                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                    </div>
-                    <div class="col-md-6">
-                      <label for="inputCity" class="form-label">Ciudad</label>
-                      <input type="text" class="form-control" id="inputCity">
-                    </div> -->
+                    
                     <div class="col-md-6 text-start">
                         <label for="inputEmail4" class="form-label">Contraseña</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Tu Contraseña">
+                        <input type="password" class="form-control" id="inputEmail4" placeholder="Tu Contraseña">
                       </div>
                       <div class="col-md-6 text-start">
                         <label for="inputPassword4" class="form-label">Repetir Contraseña</label>
                         <input type="password" class="form-control" id="inputPassword4" placeholder="Confirma tu contraseña">
                     </div>
                     <div class="col-12" class="d-flex">
-                        <button type="submit" class="btn btn-primary shadow mb-2">Registrarse</button>
-                        <button type="submit" class="btn btn-primary shadow mb-2">Cancelar</button>
+                        <button type="submit" class="btn btn-primary shadow mb-4">Registrarse</button>
+                        <button type="submit" class="btn btn-primary shadow mx-3 mb-4 px-4">Cancelar</button>
                     </div>
                     
                   </form>
@@ -130,18 +123,18 @@
         </div>
     </section>
     <br><br>
-    <footer class="bg-dark text-light py-2 mt-2">
+    <footer class="bg-dark bg-gradient mt-2">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
             <a href=""><img src="img/logo-d1.png" alt=" Logo de la empresa" class="w-100" class="h-100"></a>
-            <p class="text-center">Derechos reservados &copy; 2023</p>
+            <p class="text-center text-white-50">Derechos reservados &copy; 2023</p>
           </div>
           <div class="col-md-4">
             <h5 class="text-center text-success text-opacity-75">Contacto</h5>
-            <p class="text-center">Teléfono: 123-456-7890</p>
-            <p class="text-center">Correo electrónico: info@tudominio.com</p>
-            <p class="text-center">Dirección: Calle 123, Ciudad, Estado</p>
+            <p class="text-center text-white-50">Teléfono: 123-456-7890</p>
+            <p class="text-center text-white-50">Correo electrónico: info@tudominio.com</p>
+            <p class="text-center text-white-50">Dirección: Calle 123, Ciudad, Estado</p>
             
           </div>
           <div class="col-md-4">
